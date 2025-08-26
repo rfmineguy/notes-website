@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/vimwiki-notes-site/',
+  title: "Notes",
+  description: "A notes site",
   themeConfig: {
     outline: {
       level: 'deep',
