@@ -2,6 +2,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/vimwiki-notes-site/',
   themeConfig: {
     outline: {
       level: 'deep',
