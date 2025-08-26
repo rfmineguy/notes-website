@@ -62,6 +62,7 @@ su
 vi /etc/group
 # add username to sudo (sudo:x:27:<username>)
 ```
+2. You may have to restart the vm for linux to recognize the user's new permission
 
 ## Update the system
 ```bash
