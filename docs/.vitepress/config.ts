@@ -2,7 +2,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/vimwiki-notes-site/',
+  base: '/notes-website/',
   title: "Notes",
   description: "A notes site",
   themeConfig: {
