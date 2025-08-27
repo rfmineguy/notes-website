@@ -35,6 +35,7 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                       { text: 'Aug25', link: '/school/fall_25/linux/aug25' },
+                      { text: 'Aug27', link: '/school/fall_25/linux/aug27' },
                     ]
                   },
                   { text: 'Topics',

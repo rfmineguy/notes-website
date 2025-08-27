@@ -19,3 +19,29 @@ apropos users
 
 ## uname
 `uname` is a command that gives you infomation about the system
+
+## whereis
+`whereis` is a command that shows you where an executable is located on the disk
+
+### Example
+```bash
+# show me where the sudo command is
+whereis sudo
+```
+
+## ip
+`ip` is a command that gives you information about the network connection
+
+### Example
+```bash
+# outputs information about the ip address
+ip addr
+```
+
+## shutdown
+`shutdown` is a command that lets you shutdown the pc
+
+### Example
+```bash
+shutdown -h now
+```
