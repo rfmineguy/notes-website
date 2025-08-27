@@ -50,14 +50,14 @@ export default defineConfig({
               },
               {
                 text: 'AI',
-                collapsed: true,
+                collapsed: false,
                 items: [
                   { text: '', link: '/school/fall_25/ai/index' }
                 ]
               },
               {
                 text: 'Web Dev',
-                collapsed: true,
+                collapsed: false,
                 items: [
                   { text: 'Class Sessions',
                     collapsed: false,
