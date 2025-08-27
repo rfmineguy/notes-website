@@ -58,7 +58,14 @@ export default defineConfig({
               {
                 text: 'Web Dev',
                 collapsed: true,
-                link: '/school/fall_25/web/index' 
+                items: [
+                  { text: 'Class Sessions',
+                    collapsed: false,
+                    items: [
+                      { text: 'Aug 26 (Introduction/Syllabus)', link: '/school/fall_25/web/aug_26' }
+                    ]
+                  }
+                ]
               },
             ]
           }
