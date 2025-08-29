@@ -63,7 +63,8 @@ export default defineConfig({
                   { text: 'Class Sessions',
                     collapsed: false,
                     items: [
-                      { text: 'Aug 26 (Introduction/Syllabus)', link: '/school/fall_25/web/aug_26' }
+                      { text: 'Aug 26 (Introduction/Syllabus)', link: '/school/fall_25/web/aug_26' },
+                      { text: 'Aug 28', link: '/school/fall_25/web/aug28' }
                     ]
                   }
                 ]
