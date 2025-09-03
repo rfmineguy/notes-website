@@ -53,7 +53,12 @@ export default defineConfig({
                 text: 'AI',
                 collapsed: false,
                 items: [
-                  { text: '', link: '/school/fall_25/ai/index' }
+                  { text: '', link: '/school/fall_25/ai/index' },
+                  { text: 'Sep 3', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep3' },
+                      { text: 'Lisp', link: '/school/fall_25/ai/sep3_lisp' },
+                    ] }
                 ]
               },
               {
