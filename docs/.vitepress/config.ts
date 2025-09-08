@@ -59,7 +59,14 @@ export default defineConfig({
                     items: [
                       { text: 'Beginning', link: '/school/fall_25/ai/sep3' },
                       { text: 'Lisp', link: '/school/fall_25/ai/sep3_lisp' },
-                    ] }
+                    ] 
+                  },
+                  { text: 'Sep 8', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep8_lisp' },
+                      { text: 'Agents', link: '/school/fall_25/ai/sep8_agents' },
+                    ] 
+                  }
                 ]
               },
               {
