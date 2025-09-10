@@ -100,9 +100,11 @@ The proposed definition requires the following:
   - lights
   - gps
 
-|              | Crossword | Chess | Assembly line robot | Automated taxi |
-| --           | --        | --    | --                  | --             |
-| Observable   | Fully     | Fully | Fully               | Partially      |
+
+## Observability
+|            | Crossword | Chess | Assembly line robot | Automated taxi |
+| --         | --        | --    | --                  | --             |
+| Observable | Fully     | Fully | Fully               | Partially      |
 
 * Fully observable - when sensors can detect all aspects relevant to choice of action
 * Partially observable - when sensors get some information

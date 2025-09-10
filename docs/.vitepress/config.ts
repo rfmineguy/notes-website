@@ -67,6 +67,12 @@ export default defineConfig({
                       { text: 'Beginning', link: '/school/fall_25/ai/sep8_lisp' },
                       { text: 'Agents', link: '/school/fall_25/ai/sep8_agents' },
                     ] 
+                  },
+                  { text: 'Sep 10', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep10' },
+                      { text: 'Agents', link: '/school/fall_25/ai/sep8_agents' },
+                    ] 
                   }
                 ]
               },
