@@ -83,7 +83,8 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                       { text: 'Aug 26 (Introduction/Syllabus)', link: '/school/fall_25/web/aug_26' },
-                      { text: 'Aug 28', link: '/school/fall_25/web/aug28' }
+                      { text: 'Aug 28', link: '/school/fall_25/web/aug28' },
+                      { text: 'Sep 11', link: '/school/fall_25/web/sep11' }
                     ]
                   }
                 ]
