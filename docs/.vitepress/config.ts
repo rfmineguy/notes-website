@@ -38,6 +38,8 @@ export default defineConfig({
                       { text: 'Aug27', link: '/school/fall_25/linux/aug27' },
                       { text: 'Sep3', link: '/school/fall_25/linux/sep3' },
                       { text: 'Sep8', link: '/school/fall_25/linux/sep8' },
+                      { text: 'Sep24', link: '/school/fall_25/linux/sep24' },
+                      { text: 'Sep29', link: '/school/fall_25/linux/sep29' },
                     ]
                   },
                   { text: 'Topics',
@@ -72,7 +74,22 @@ export default defineConfig({
                     items: [
                       { text: 'Beginning', link: '/school/fall_25/ai/sep10' },
                     ] 
-                  }
+                  },
+                  { text: 'Sep 15', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep15' },
+                    ] 
+                  },
+                  { text: 'Sep 24', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep24' },
+                    ] 
+                  },
+                  { text: 'Sep 29', collapsed: false, 
+                    items: [
+                      { text: 'Beginning', link: '/school/fall_25/ai/sep29' },
+                    ] 
+                  },
                 ]
               },
               {
@@ -84,7 +101,9 @@ export default defineConfig({
                     items: [
                       { text: 'Aug 26 (Introduction/Syllabus)', link: '/school/fall_25/web/aug_26' },
                       { text: 'Aug 28', link: '/school/fall_25/web/aug28' },
-                      { text: 'Sep 11', link: '/school/fall_25/web/sep11' }
+                      { text: 'Sep 11', link: '/school/fall_25/web/sep11' },
+                      { text: 'Sep 16', link: '/school/fall_25/web/sep16' },
+                      { text: 'Sep 23', link: '/school/fall_25/web/sep23' }
                     ]
                   }
                 ]
