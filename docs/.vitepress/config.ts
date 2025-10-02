@@ -40,6 +40,7 @@ export default defineConfig({
                       { text: 'Sep8', link: '/school/fall_25/linux/sep8' },
                       { text: 'Sep24', link: '/school/fall_25/linux/sep24' },
                       { text: 'Sep29', link: '/school/fall_25/linux/sep29' },
+                      { text: 'Oct1', link: '/school/fall_25/linux/oct1' },
                     ]
                   },
                   { text: 'Topics',
