@@ -24,20 +24,19 @@
 )
 ```
 
-```
+```lisp
 (read in-file)
 (if (eq in-file 'eof) <body>)
 ```
 
 ## Member
-checks whether a lisp expression is a member of a list
 ```lisp
 (member 'c '(a b c d)) => (c d)
 (member 'e '(a b c d)) => nil
 ```
 
 `:test` - if a test is not specified (eq) is used
-`:test-not` - if specified, member returns a list beginning with the first unmatched element of <list> 
+`:test-not` - if specified, member returns a list beginning with the first unmatched element of \<list\> 
 
 ```lisp
 (member 'b '(a b c d))                                    => (b c d)

@@ -1,42 +1,42 @@
-// .vitepress/config.ts
-import { defineConfig } from 'vitepress'
-import multimdTable from 'markdown-it-multimd-table'
+  // .vitepress/config.ts
+  import { defineConfig } from 'vitepress'
+  import multimdTable from 'markdown-it-multimd-table'
 
-export default defineConfig({
-  base: '/notes-website/',
-  title: "Notes",
-  description: "A notes site",
-  markdown: {
-    config: (md) => {
-      md.use(multimdTable, {
-        multiline: true,
-        rowspan: true,
-        colspan: true,
-        headerless: true
-      })
-    }
-  },
-  themeConfig: {
-    outline: {
-      level: 'deep',
-      label: 'On this page'
+  export default defineConfig({
+    base: '/notes-website/',
+    title: "Notes",
+    description: "A notes site",
+    markdown: {
+      config: (md) => {
+        md.use(multimdTable, {
+          multiline: true,
+          rowspan: true,
+          colspan: true,
+          headerless: true
+        })
+      }
     },
-    sidebar: [
-      {
-        text: 'Classes',
-        items: [
-          { text: 'Fall 2025',
-            collapsed: false,
-            items: [
-              { text: 'Linux', 
-                collapsed: false,
-                items: [
-                  { text: 'Class Sessions',
-                    collapsed: false,
-                    items: [
-                      { text: 'Aug25', link: '/school/fall_25/linux/aug25' },
-                      { text: 'Aug27', link: '/school/fall_25/linux/aug27' },
-                      { text: 'Sep3', link: '/school/fall_25/linux/sep3' },
+    themeConfig: {
+      outline: {
+        level: 'deep',
+        label: 'On this page'
+      },
+      sidebar: [
+        {
+          text: 'Classes',
+          items: [
+            { text: 'Fall 2025',
+              collapsed: false,
+              items: [
+                { text: 'Linux', 
+                  collapsed: false,
+                  items: [
+                    { text: 'Class Sessions',
+                      collapsed: false,
+                      items: [
+                        { text: 'Aug25', link: '/school/fall_25/linux/aug25' },
+                        { text: 'Aug27', link: '/school/fall_25/linux/aug27' },
+                        { text: 'Sep3', link: '/school/fall_25/linux/sep3' },
                       { text: 'Sep8', link: '/school/fall_25/linux/sep8' },
                       { text: 'Sep24', link: '/school/fall_25/linux/sep24' },
                       { text: 'Sep29', link: '/school/fall_25/linux/sep29' },
@@ -94,6 +94,7 @@ export default defineConfig({
                       { text: 'Beginning', link: '/school/fall_25/ai/sep29' },
                     ] 
                   },
+                  { text: 'Oct 8', link: '/school/fall_25/ai/oct8' },
                 ]
               },
               {
